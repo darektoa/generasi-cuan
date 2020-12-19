@@ -25,6 +25,8 @@ var serviceWorkerOption = {
     "/images/icons/email-1.svg",
     "/images/icons/facebook-1.svg",
     "/images/icons/half-circle-4d78f9.svg",
+    "/images/icons/icons.png",
+    "/images/icons/icons.svg",
     "/images/icons/instagram-1.svg",
     "/images/icons/key-black.svg",
     "/images/icons/mail-black.svg",
@@ -40,6 +42,7 @@ var serviceWorkerOption = {
     "/images/icons/star-yellow.svg",
     "/images/icons/wave-red.svg",
     "/images/icons/wave-yellow.svg",
+    "/images/thumbnail/thumbnail-1.png",
     "/images/users/user-1.jpg",
     "/images/users/user-2.jpg",
     "/index.html"
