@@ -2,7 +2,7 @@
     "lang": "id",
     "name": "Generasi Cuan",
     "short_name": "Gen Cuan",
-    "description": "Generasi yang menguntungkan",
+    "description": "Find the best mentors and seminars from our website",
     "categories": ["education", "sharing"],
     "dir": "ltr",
     "scope": "/",
@@ -10,7 +10,7 @@
     "display": "standalone",
     "orientation": "any",
     "theme_color": "#FFF",
-    "background_color": "#FFF",
+    "background_color": "#000",
     "icons": [
         {
             "src": "./icons/144x144.png",
