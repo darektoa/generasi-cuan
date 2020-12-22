@@ -1,0 +1,66 @@
+.notfound-box{
+    width: 100vw;
+    height: 100rem;
+    padding: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/bg-login-desktop.svg"), linear-gradient(to bottom, #3B68F7, #507AFA);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+    z-index: 10;
+}
+
+.notfound-box > .content-box{
+    padding: 20rem 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    background-color: #FFF;
+    border-radius: 2rem;
+    box-shadow: 0 5px 10px 0 #18274B;
+}
+
+.notfound-box > .content-box > h1{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.notfound-box > .content-box > a{
+    padding: 1.8rem 5rem;
+    display: inline-block;
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #E95584;
+    border: none;
+    border-radius: 1rem;
+}
+
+@media (max-width: 800px){
+    .notfound-box{
+        height: 40rem;
+        padding: 5rem;
+        background-image: linear-gradient(to bottom,  #3B68F7, #507AFA);
+    }
+
+    .notfound-box > .content-box{
+        padding: 3rem;
+        border-radius: 1.5rem;
+    }
+
+    .notfound-box > .content-box > h1{
+        font-size: 1.6rem;
+    }
+    
+    .notfound-box > .content-box > a{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+    }
+}

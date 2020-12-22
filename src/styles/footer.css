@@ -1,0 +1,104 @@
+footer{
+    width: 95%;
+    max-width: 142.5rem;
+    padding: 7rem 0 14rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-top: 1px solid #000;
+}
+
+/* TEXT BOX */
+footer > .text-box{
+    width: 30rem;
+    margin-right: 10rem;
+}
+
+footer > .text-box > h2{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+footer > .text-box > h2 > img{
+    width: 6rem;
+    margin-right: 1rem;
+}
+
+footer > .text-box > h2 > span{
+    font-size: 2.6rem;
+}
+
+/* SOCMED BOX */
+footer > .socmed-box{
+    width: auto;
+    overflow: auto;
+}
+
+footer > .socmed-box > a{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+}
+
+footer > .socmed-box > a:hover{
+    text-decoration: underline;
+}
+
+footer > .socmed-box > a > div[class^="icon_"]{
+    margin-right: 1.5rem;
+    flex-shrink: 0;
+}
+
+
+
+@media (max-width: 800px){
+    footer{
+        padding: 5rem 0 6rem 0;
+        justify-content: space-between;
+    }
+
+    /* TEXT BOX */
+    footer > .text-box{
+        max-width: 40%;
+        margin: 0;
+    }
+
+    footer > .text-box > h2{
+        margin-bottom: 2rem;
+        font-size: 1.4rem;
+    }
+
+    footer > .text-box > h2 > img{
+        width: 3.5rem;
+    }
+
+    footer > .text-box > h2 > span{
+        font-size: 1.4rem;
+    }
+
+    footer > .text-box > p{
+        font-size: 1.2rem;
+    }
+
+    /* SOCMED BOX */
+    footer > .socmed-box{
+        max-width: 55%;
+    }
+
+    footer > .socmed-box > a{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    footer > .socmed-box > a > div[class^="icon_"]{
+        --icon-size: 1.5rem;
+        margin-right: 0.5rem;
+    }
+}

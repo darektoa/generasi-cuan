@@ -1,0 +1,237 @@
+.login-box{
+    width: 100vw;
+    height: 100vh;
+    padding: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("./images/bg-login-desktop.svg"), linear-gradient(to bottom, #3B68F7, #507AFA);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+    z-index: 10;
+}
+
+.login-box > .content-box{
+    width: 112rem;
+    height: 70rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    background-color: #FFF;
+    border-radius: 2rem;
+    box-shadow: 0 5px 10px 0 #18274B;
+}
+
+.login-box > .content-box > .form-box{
+    width: 50%;
+    height: 100%;
+    padding: 10rem 8rem;
+}
+
+.login-box > .content-box > .form-box > .logo-box{
+    width: 100%;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.login-box > .content-box > .form-box > .logo-box > img{
+    width: 3.5rem;
+    margin-right: .5rem;
+}
+
+.login-box > .content-box > .form-box > .logo-box > h1{
+    font-size: 1.8rem;
+}
+
+.login-box > .content-box > .form-box > h2{
+    margin-bottom: 1rem;
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+
+.login-box > .content-box > .form-box > p{
+    margin-bottom: 5rem;
+    font-size: 1.4rem;
+}
+
+.login-box > .content-box > .form-box > .input-box{
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.login-box > .content-box > .form-box > .input-box > .icon_mail-black{
+    --icon-size: 2.4rem;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    position: absolute;
+    top: .5rem;
+}
+
+.login-box > .content-box > .form-box > .input-box > .icon_key-black{
+    --icon-size: 2.4rem;
+    position: absolute;
+    top: 6.5rem;
+}
+
+.login-box > .content-box > .form-box > .input-box > input{
+    width: 100%;
+    padding: .5rem 4rem;
+    font-size: 1.6rem;
+    border: 0;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+
+.login-box > .content-box > .form-box > .input-box > input:nth-child(3){
+    margin-bottom: 3rem;
+}
+
+.login-box > .content-box > .form-box > .input-box > input:nth-child(4){
+    margin-bottom: 4rem;
+}
+
+.login-box > .content-box > .form-box > .input-box > label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.login-box > .content-box > .form-box > .input-box > label > input{
+    margin-right: 2rem;
+}
+
+.login-box > .content-box > .form-box > button{
+    width: 100%;
+    padding: 1.8rem 5rem;
+    display: inline-block;
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #E95584;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.login-box > .content-box > img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #EBEBEB;
+    border-radius: 2rem;
+}
+
+.login-box > .content-box > a.close{
+    --icon-size: 3rem;
+    position: absolute;
+    top: -4.5rem;
+    right: -4rem;
+    box-sizing: content-box;
+    border: 3px solid #FFF;
+    background-color: transparent;
+}
+
+
+
+@media (min-aspect-ratio: 3/1), 
+(max-width: 800px) and (min-aspect-ratio: 4/7),
+(max-width: 400px) and (min-aspect-ratio: 2/3) {
+    .login-box{
+        align-items: flex-start;
+    }
+}
+
+
+
+@media (max-width: 800px){
+    .login-box{
+        padding: 10rem 2rem;
+        background-image: linear-gradient(to bottom,  #3B68F7, #507AFA);
+    }
+
+    .login-box > .content-box{
+        width: 100%;
+        max-width: 35rem;
+        height: 46rem;
+        border-radius: 1.5rem;
+    }
+
+    .login-box > .content-box > .form-box{
+        width: 100%;
+        padding: 5rem 4rem;
+    }
+
+    .login-box > .content-box > .form-box > .logo-box{
+        margin-bottom: 3rem;
+    }
+
+    .login-box > .content-box > .form-box > .logo-box > img{
+        width: 2.6rem;
+    }
+
+    .login-box > .content-box > .form-box > .logo-box > h1{
+        font-size: 1.2rem;
+    }
+
+    .login-box > .content-box > .form-box > h2{
+        font-size: 2.8rem;
+    }
+
+    .login-box > .content-box > .form-box > p{
+        margin-bottom: 3rem;
+        font-size: 1rem;
+    }
+
+    .login-box > .content-box > .form-box > .input-box > .icon_mail-black{
+        --icon-size: 1.5rem;
+    }
+    
+    .login-box > .content-box > .form-box > .input-box > .icon_key-black{
+        --icon-size: 1.5rem;
+        top: 5rem;
+    }
+
+    .login-box > .content-box > .form-box > .input-box{
+        margin-bottom: 2rem;
+    }
+
+    .login-box > .content-box > .form-box > .input-box > input{
+        padding: .4rem 3rem;
+        font-size: 1.2rem;
+    }
+    
+    .login-box > .content-box > .form-box > .input-box > input:nth-child(3){
+        margin-bottom: 2rem;
+    }
+
+    .login-box > .content-box > .form-box > .input-box > label{
+        font-size: 1.2rem;
+    }
+
+    .login-box > .content-box > .form-box > button{
+        padding: 1rem 4rem;
+        font-size: 1.4rem;
+    }
+
+    .login-box > .content-box > img{
+        display: none;
+    }
+
+    .login-box > .content-box > a.close{
+        --icon-size: 2.5rem;
+        right: 0;
+    }
+}

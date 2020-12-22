@@ -1,0 +1,204 @@
+.hero-box{
+    width: 100%;
+    height: 62rem;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #507AFA, #6A8FFF);
+}
+
+.hero-box > .hero-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* TEXT BOX */
+.hero-box .text-box{
+    width: 52%;
+    min-width: 50rem;
+    height: 100%;
+    padding: 0 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.hero-box .text-box h2{
+    margin-bottom: 2rem;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.hero-box .text-box .box-regis{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.hero-box .text-box .box-regis .box-input{
+    margin-right: 6.5rem;
+    position: relative;
+}
+
+.hero-box .text-box .box-regis .box-input .icon_mail-white{
+    position: absolute;
+    bottom: .5rem;
+}
+
+.hero-box .text-box .box-regis .box-input input{
+    width: 35rem;
+    padding-left: 4rem;
+    color: #FFF;
+    font-size: 1.8rem;
+    border: none;
+    border-bottom: .3rem solid #FFF;
+    background: none;
+}
+
+.hero-box .text-box .box-regis .box-input input:focus{
+    outline: none;
+}
+
+.hero-box .text-box .box-regis .box-input input::placeholder{
+    color: #FFF;
+}
+
+/* SLIDE BOX */
+.hero-box .slide-box{
+    width: 48%;
+    min-height: 90%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 4rem 0 0 4rem;
+    background-color: #EBEBEB;
+    overflow: hidden;
+}
+
+.hero-box .slide-box > button.left{
+    --icon-size: 4.2rem;
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    left: 4rem;
+}
+
+.hero-box .slide-box > button.right{
+    --icon-size: 4.2rem;
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    right: 4rem;
+}
+
+.hero-box .slide-box > .box-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-box .slide-box > .box-item > img{
+    width: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+
+
+@media (min-width: 801px) and (max-width: 1800px){
+    .hero-box .text-box .box-regis .box-input input{
+        width: 30rem;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .hero-box {
+        height: auto;
+    }
+
+    .hero-box > .hero-inner{
+        flex-direction: column-reverse;
+    }
+
+    /* TEXT BOX */
+    .hero-box .text-box {
+        width: 100%;
+        min-width: 0;
+        padding: 5rem 2rem;
+    }
+
+    .hero-box .text-box > h2{
+        font-size: 1.8rem;
+    }
+
+    .hero-box .text-box > p{
+        font-size: 1.2rem;
+    }
+
+    .hero-box .text-box > .box-regis{
+        width: 100%;
+        margin: 5rem 0;
+        flex-direction: column;
+    }
+
+    .hero-box .text-box > .box-regis > .box-input{
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero-box .text-box .box-regis .box-input .icon_mail-white{
+        --icon-size: 1.8rem;
+        bottom: 1rem;
+    }
+
+    .hero-box .text-box > .box-regis > .box-input > input{
+        width: 100%;
+        padding-left: 3rem;
+        padding-bottom: .5rem;
+        font-size: 1.4rem;
+    }
+
+    .hero-box .text-box > .box-regis > .button-regis{
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    /* SLIDE BOX */
+    .hero-box .slide-box {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .hero-box .slide-box > button.left{
+        width: 5rem;
+        height: 100%;
+        left: 0;
+        background: none;
+        outline: none;
+    }
+    
+    .hero-box .slide-box > button.right{
+        width: 5rem;
+        height: 100%;
+        right: 0;
+        background: none;
+        outline: none;
+    }
+
+    .hero-box .slide-box > .box-item{
+        height: auto;
+    }
+}

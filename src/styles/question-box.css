@@ -1,0 +1,122 @@
+.question-box{
+    padding: 10rem 0 26.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.question-box > .icon_quarter-circle-e7d9ff{
+    --icon-size: 14rem;
+    position: absolute;
+    top: 9rem;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.question-box > .icon_full-circle-4D78F9{
+    --icon-size: 11rem;
+    position: absolute;
+    bottom: 22rem;
+    right: 17rem;
+    filter: opacity(50%);
+}
+
+.question-box > .plus-1{
+    position: absolute;
+    top: 10rem;
+    right: 24rem;
+}
+
+.question-box > .plus-2{
+    position: absolute;
+    bottom: 14rem;
+    left: 36rem;
+}
+
+/* TEXT BOX */
+.question-box > .text-box{
+    max-width: 85rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.question-box > .text-box > h2{
+    margin-bottom: 4rem;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+/* LINK CONTACT */
+.question-box > a{
+    padding: 1rem 1rem 1rem 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    background-color: #E95584;
+}
+
+.question-box > a > .icon_simple-arrow-black{
+    --icon-size: 1.1rem;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 3rem;
+    border-radius: 1.5rem;
+    background-position: inherit, 0;
+}
+
+
+
+@media (max-width: 800px){
+    .question-box{
+        width: 100%;
+        padding: 14rem 2rem 26rem 2rem;
+        overflow: hidden;
+    }
+
+    .question-box > .icon_quarter-circle-e7d9ff{
+        --icon-size: 7rem;
+        top: 0;
+    }
+
+    .question-box > .icon_full-circle-4D78F9{
+        --icon-size: 11rem;
+        bottom: 6rem;
+        right: -5rem;
+    }
+
+    .question-box > .plus-1{
+        top: 10rem;
+        right: .3rem;
+    }
+
+    .question-box > .plus-2{
+        bottom: 16rem;
+        left: 2rem;
+    }
+
+    /* TEXT BOX */
+    .question-box > .text-box{
+        width: 100%;
+        margin-bottom: 7rem;
+    }
+    
+    .question-box > .text-box > h2{
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    .question-box > a{
+        font-size: 1.8rem;
+    }
+}

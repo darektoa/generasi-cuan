@@ -1,0 +1,32 @@
+{
+    "lang": "id",
+    "name": "Generasi Cuan",
+    "short_name": "Gen Cuan",
+    "description": "Find the best mentors and seminars from our website",
+    "categories": ["education", "sharing"],
+    "dir": "ltr",
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#FFF",
+    "background_color": "#000",
+    "icons": [
+        {
+            "src": "./icons/144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }, {
+            "src": "./icons/256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }, {
+            "src": "./icons/512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

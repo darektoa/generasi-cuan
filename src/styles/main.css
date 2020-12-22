@@ -1,0 +1,125 @@
+@font-face{
+    font-family: "Poppins";
+    src: url("./fonts/Poppins-Regular.woff") format('woff');
+}
+
+@font-face{
+    font-family: "Gagalin";
+    src: url("./fonts/Gagalin-Regular.woff2") format('woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    font-weight: 100;
+    box-sizing: border-box;
+    /* transition: width linear .3s, height linear .3s; */
+    transition: scroll 2s;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    /* border: 1px solid red;   */
+}::-webkit-scrollbar{
+    width: 7px;
+    background-color: #F0F0F0;
+}::-webkit-scrollbar:horizontal{
+    height: 7px;
+}::-webkit-scrollbar-thumb{
+    background-color: #CDCDCD;
+}
+
+html{
+    font-size: 10px;
+}
+
+body, main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1980px;
+    width: 100%;
+}
+
+.label{
+    margin-bottom: 1.5rem;
+    padding: .7rem 3rem;
+    display: inline-block;
+    color: #E95584;
+    font-size: 1.8rem;
+    text-decoration: none;
+    border-radius: 5rem;
+    background-color: #FFE4ED;
+}
+
+.icon-gencuan{
+    color: #4A4A4A;
+    font-family: "Gagalin";
+}
+
+.icon-gencuan > span{
+    color: #00CB42;
+    font-family: "Gagalin";
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 1700px){
+    html{
+        font-size: 8px;
+    }
+}
+
+
+
+@media screen and (max-width: 1400px){
+    html{
+        font-size: 7px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    html{
+        font-size: 6px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px){
+    html{
+        font-size: 5px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+    html{
+        font-size: 14px;
+    }
+
+    .label{
+        font-size: 1.2rem;
+        padding: .5rem 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+    html{
+        font-size: 10px;
+    }
+}

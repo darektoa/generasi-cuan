@@ -1,0 +1,215 @@
+*[class^="icon_"]{
+    --icon-size: 2.5rem;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-image: url("./images/icons/icons.svg");
+    background-size: calc(var(--icon-size) * 8);
+    background-repeat: no-repeat;
+}
+
+/*
+    MAIL
+*/
+
+.icon_mail-black{
+    background-position-x: calc(var(--icon-size) * -1 * 0);
+    background-position-y: calc(var(--icon-size) * -1 * 0);
+}
+
+.icon_mail-white{
+    background-position-x: calc(var(--icon-size) * -1 * 1);
+    background-position-y: calc(var(--icon-size) * -1 * 0);
+}
+
+
+/*
+    KEY
+*/
+.icon_key-black{
+    background-position-x: calc(var(--icon-size) * -1 * 6);
+    background-position-y: calc(var(--icon-size) * -1 * 1);
+}
+
+.icon_key-white{
+    background-position-x: calc(var(--icon-size) * -1 * 7);
+    background-position-y: calc(var(--icon-size) * -1 * 1);
+}
+
+
+/*
+    LEFT ARROW
+*/
+.icon_left-arrow-white{
+    background-position-x: calc(var(--icon-size) * -1 * 1);
+    background-position-y: calc(var(--icon-size) * -1 * 1);
+}
+
+.icon_left-arrow-black{
+    background-position-x: calc(var(--icon-size) * -1 * 0), 0;
+    background-position-y: calc(var(--icon-size) * -1 * 1), 0;
+    background-image: url("./images/icons/icons.svg"), linear-gradient(#FFF, #FFF);
+}
+
+.icon_left-arrow-black:hover{
+    background-position-x: calc(var(--icon-size) * -1 * 1), 0;
+    background-position-y: calc(var(--icon-size) * -1 * 1), 0;
+    background-image: url("./images/icons/icons.svg"), linear-gradient(#7E31FD, #7E31FD);
+}
+
+
+/*
+    RIGHT ARROW
+*/
+.icon_right-arrow-white{
+    background-position-x: calc(var(--icon-size) * -1 * 3);
+    background-position-y: calc(var(--icon-size) * -1 * 1);
+}
+
+.icon_right-arrow-black{
+    background-position-x: calc(var(--icon-size) * -1 * 2), 0;
+    background-position-y: calc(var(--icon-size) * -1 * 1), 0;
+    background-image: url("./images/icons/icons.svg"), linear-gradient(#FFF, #FFF);
+}
+
+.icon_right-arrow-black:hover{
+    background-position-x: calc(var(--icon-size) * -1 * 3), 0;
+    background-position-y: calc(var(--icon-size) * -1 * 1), 0;
+    background-image: url("./images/icons/icons.svg"), linear-gradient(#7E31FD, #7E31FD);
+}
+
+
+/*
+    SIMPLE ARROW
+*/
+.icon_simple-arrow-black{
+    background-position: center, 0;
+    background-size: var(--icon-size), cover;
+    background-image: url("./images/icons/simple-arrow-black.svg"), linear-gradient(#FFF, #FFF);
+}
+
+
+
+/*
+    POINT 7x7
+*/
+.icon_point7x7-white{
+    background-position-x: calc(var(--icon-size) * -1 * 7);
+    background-position-y: calc(var(--icon-size) * -1 * 2);
+}
+
+.icon_point7x7-grey{
+    background-position-x: calc(var(--icon-size) * -1 * 5);
+    background-position-y: calc(var(--icon-size) * -1 * 2);
+}
+
+.icon_point7x7-red{
+    background-position-x: calc(var(--icon-size) * -1 * 6);
+    background-position-y: calc(var(--icon-size) * -1 * 2);
+}
+
+
+/*
+    WAVE
+*/
+.icon_wave-red{
+    background-position-x: calc(var(--icon-size) * -1 * 3);
+    background-position-y: calc(var(--icon-size) * -1 * 2);
+}
+
+.icon_wave-yellow{
+    background-position-x: calc(var(--icon-size) * -1 * 4);
+    background-position-y: calc(var(--icon-size) * -1 * 2);
+}
+
+
+/*
+    CIRCLE
+*/
+.icon_full-circle-4D78F9{
+    background-position-x: calc(var(--icon-size) * -1 * 0);
+    background-position-y: calc(var(--icon-size) * -1 * 2);
+}
+
+.icon_half-circle-4d78f9{
+    background-position-x: calc(var(--icon-size) * -1 * 1);
+    background-position-y: calc(var(--icon-size) * -1 * 2);
+}
+
+.icon_quarter-circle-e7d9ff{
+    background-position-x: calc(var(--icon-size) * -1 * 2);
+    background-position-y: calc(var(--icon-size) * -1 * 2);
+}
+
+
+/*
+    CHECKLIST
+*/
+.icon_checklist-green{
+    background-position-x: calc(var(--icon-size) * -1 * 4);
+    background-position-y: calc(var(--icon-size) * -1 * 1);
+}
+
+
+/*
+    PLAY
+*/
+.icon_play-white{
+    background-position-x: calc(var(--icon-size) * -1 * 5);
+    background-position-y: calc(var(--icon-size) * -1 * 1);
+}
+
+
+/*
+    PLUS
+*/
+.icon_plus-red{
+    background-position-x: calc(var(--icon-size) * -1 * 7);
+    background-position-y: calc(var(--icon-size) * -1 * 0);
+}
+
+
+/*
+    CROSS
+*/
+.icon_cross-4f4f4f{
+    background-position-x: calc(var(--icon-size) * -1 * 0);
+    background-position-y: calc(var(--icon-size) * -1 * 3);
+}
+
+.icon_cross-white{
+    background-position-x: calc(var(--icon-size) * -1 * 1);
+    background-position-y: calc(var(--icon-size) * -1 * 3);
+}
+
+
+/*
+    STAR
+*/
+.icon_star-yellow{
+    background-position-x: calc(var(--icon-size) * -1 * 6);
+    background-position-y: calc(var(--icon-size) * -1 * 0);
+}
+
+.icon_star-grey{
+    background-position-x: calc(var(--icon-size) * -1 * 5);
+    background-position-y: calc(var(--icon-size) * -1 * 0);
+}
+
+
+/*
+    SOCIAL MEDIA
+*/
+.icon_email-1{
+    background-position-x: calc(var(--icon-size) * -1 * 2);
+    background-position-y: calc(var(--icon-size) * -1 * 0);
+}
+
+.icon_instagram-1{
+    background-position-x: calc(var(--icon-size) * -1 * 3);
+    background-position-y: calc(var(--icon-size) * -1 * 0);
+}
+
+.icon_facebook-1{
+    background-position-x: calc(var(--icon-size) * -1 * 4);
+    background-position-y: calc(var(--icon-size) * -1 * 0);
+}
