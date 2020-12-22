@@ -22,10 +22,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
       
-      - name: Build & Deploy
-        run: 
-          - npm run build
-          - npm run deploy
+      - name: Build
+        run: npm run build
+        
+      - name: Deploy
+        run: npm run deploy
         env:
           CI: true
           FIREBASE_TOKEN: "${{ secrets.FIREBASE_TOKEN }}""
