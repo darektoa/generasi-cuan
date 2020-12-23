@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "deploy": "firebase deploy"
+    "deploy": "firebase deploy --project default"
   },
   "keywords": [],
   "author": "",
