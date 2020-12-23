@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "gen-cuan"
+    "default": "gen-cuan",
+    "apis": "apis-gen-cuan"
   }
 }
