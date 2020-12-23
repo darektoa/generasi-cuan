@@ -7,6 +7,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
+    background-color: red;
 }
 
 .seminar-box > .icon_half-circle-4d78f9{
