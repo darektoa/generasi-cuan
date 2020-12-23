@@ -25,6 +25,12 @@ jobs:
       - name: Build
         run: npm run build
       
+      - name : Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: My-Artifact
+          path: dist
+      
       - name: Deploy
         run: npm run deploy
         env:
