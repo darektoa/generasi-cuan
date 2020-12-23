@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "gen-cuan",
+    "apis": "apis-gen-cuan"
+  }
+}
