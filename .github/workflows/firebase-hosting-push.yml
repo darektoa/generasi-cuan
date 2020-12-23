@@ -25,11 +25,12 @@ jobs:
       - name: Build
         run: npm run build
       
-      - name : Upload Artifact
+      - name : Upload Artifact Dist
         uses: actions/upload-artifact@v2
         with:
           name: My-Artifact
           path: dist
+          retention-days: 1
       
       - name: Deploy
         run: npm run deploy
