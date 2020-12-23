@@ -1,0 +1,24 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "firebase deploy --project apis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darektoa/generasi-cuan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darektoa/generasi-cuan/issues"
+  },
+  "homepage": "https://github.com/darektoa/generasi-cuan#readme",
+  "dependencies": {
+    "firebase-tools": "^9.1.0"
+  }
+}

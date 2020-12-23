@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Depedencies
-        run: npm install firebase-tools
+        run: npm install
       
       - name: Deploy
-        run: npx firebase deploy --project apis
+        run: npm run deploy
         env:
           CI: true
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
