@@ -1,0 +1,47 @@
+{
+    "hero": {
+        "title": "Bergabung Kami Selalu Menunggu anda Dan siap melayani anda",
+        "paragraph": "Generasi Cuan adalah online course terbarik di indonesia dengan fasilitas yang sangat mempuni"
+    },
+
+
+    
+    "seminar": {
+        "title": "Jadwal Seminar",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae convallis velit dui quis tellus lectus sem eros, at. Est vel amet, molestie pharetra interdum at rhoncus. Habitant nisl quam eget praesent vulputate rhoncus. Fringilla aliquet aliquet tellus dolor, molestie arcu."
+    },
+
+
+
+    "course": {
+        "title": "Class online from our mentor",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet pellentesque ac enim non augue at cursus ipsum."
+    },
+
+
+
+    "feature": {
+        "title": "Subscribe to our platform",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet pellentesque ac enim non augue at cursus ipsum.",
+        "list": [
+            "Cross platform web apps",
+            "Berita terupdate dari mentor",
+            "Prioritas info seminar",
+            "Diskon join from our mentor"
+        ]
+    },
+
+
+
+    "testimonial": {
+        "title": "What our client says",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tempus sapien placerat nunc ultricies pretium nec. Neque enim bibendum elementum malesuada quam urna euismod neque, nisl."
+    },
+
+
+
+    "question": {
+        "title": "Get Question For us",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et tempus sapien placerat nunc ultricies pretium nec. Neque enim bibendum elementum malesuada quam urna euismod neque, nisl."
+    }
+}

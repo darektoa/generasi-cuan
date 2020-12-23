@@ -1,0 +1,112 @@
+{
+  "hero": [
+    "images/slide-1.svg",
+    "images/seminar-1.jpg",
+    "images/slide-1.svg"
+  ],
+
+
+
+  "seminar": [
+    {
+      "id": 1,
+      "src": "images/seminar-1.jpg",
+      "type": "android",
+      "type_name": "Android Developer",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "datetime": "Monday, 08.00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dolor, mauris parturient facilisis libero natoque non. Elementum."
+    }, {
+      "id": 2,
+      "src": "images/seminar-2.jpg",
+      "type": "web",
+      "type_name": "Web Developer",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "datetime": "Tuesday, 09.00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dolor, mauris parturient facilisis libero natoque non. Elementum."
+    }, {
+      "id": 3,
+      "src": "images/seminar-3.jpg",
+      "type": "ui",
+      "type_name": "UI/UX Developer",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "datetime": "Wednesday, 10.00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dolor, mauris parturient facilisis libero natoque non. Elementum."
+    }
+  ],
+
+
+
+  "course": [
+    {
+      "id": 1,
+      "src": "videos/movie-bunny.mp4",
+      "thumbnail": "images/thumbnail/thumbnail-1.png",
+      "type_name": "Entertaiment",
+      "title": "Movie Bunny Happy",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+      "id": 2,
+      "src": "videos/movie-bunny.mp4",
+      "thumbnail": "images/thumbnail/thumbnail-1.png",
+      "type_name": "Entertaiment",
+      "title": "Movie Bunny Apple",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+      "id": 3,
+      "src": "videos/movie-bunny.mp4",
+      "thumbnail": "images/thumbnail/thumbnail-1.png",
+      "type_name": "Entertaiment",
+      "title": "Movie Bunny Butterfly",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+      "id": 4,
+      "src": "videos/movie-bunny.mp4",
+      "thumbnail": "images/thumbnail/thumbnail-1.png",
+      "type_name": "Entertaiment",
+      "title": "Movie Bunny",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ],
+
+
+
+  "feature": {
+    "src": "videos/movie-bunny.mp4",
+    "thumbnail": "images/thumbnail/thumbnail-1.png"
+  },
+
+
+
+  "testimonial": [
+    {
+      "id": 1,
+      "src": "images/users/user-1.jpg",
+      "name": "Ali Haikel",
+      "occupation": "Bisnis Man",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "rating": 5
+    }, {
+      "id": 2,
+      "src": "images/users/user-2.jpg",
+      "name": "Muhammad Rayhan",
+      "occupation": "UI/UX Designer",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "rating": 3
+    }, {
+      "id": 3,
+      "src": "images/users/user-1.jpg",
+      "name": "Zulfikharali Muzakir",
+      "occupation": "Manga Writer",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "rating": 4
+    }, {
+      "id": 4,
+      "src": "images/users/user-2.jpg",
+      "name": "Esport Coach",
+      "occupation": "Bisnis Man",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "rating": 5
+    }
+  ]
+}
