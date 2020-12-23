@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Depedencies
-        run: npm install
+        run: npm install firebase-tools
       
       - name: Deploy
         run: npm run deploy
