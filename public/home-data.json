@@ -1,8 +1,8 @@
 {
   "hero": [
-    "images/slide-1.svg",
-    "images/seminar-1.jpg",
-    "images/slide-1.svg"
+    "images/hero/slide-1.svg",
+    "images/seminar/seminar-1.jpg",
+    "images/hero/slide-1.svg"
   ],
 
 
@@ -10,7 +10,7 @@
   "seminar": [
     {
       "id": 1,
-      "src": "images/seminar-1.jpg",
+      "src": "images/seminar/seminar-1.jpg",
       "type": "android",
       "type_name": "Android Developer",
       "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -18,7 +18,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dolor, mauris parturient facilisis libero natoque non. Elementum."
     }, {
       "id": 2,
-      "src": "images/seminar-2.jpg",
+      "src": "images/seminar/seminar-2.jpg",
       "type": "web",
       "type_name": "Web Developer",
       "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -26,7 +26,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dolor, mauris parturient facilisis libero natoque non. Elementum."
     }, {
       "id": 3,
-      "src": "images/seminar-3.jpg",
+      "src": "images/seminar/seminar-3.jpg",
       "type": "ui",
       "type_name": "UI/UX Developer",
       "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -41,28 +41,28 @@
     {
       "id": 1,
       "src": "videos/movie-bunny.mp4",
-      "thumbnail": "images/thumbnail/thumbnail-1.png",
+      "thumbnail": "images/course/thumbnail/thumbnail-1.png",
       "type_name": "Entertaiment",
       "title": "Movie Bunny Happy",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }, {
       "id": 2,
       "src": "videos/movie-bunny.mp4",
-      "thumbnail": "images/thumbnail/thumbnail-1.png",
+      "thumbnail": "images/course/thumbnail/thumbnail-1.png",
       "type_name": "Entertaiment",
       "title": "Movie Bunny Apple",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }, {
       "id": 3,
       "src": "videos/movie-bunny.mp4",
-      "thumbnail": "images/thumbnail/thumbnail-1.png",
+      "thumbnail": "images/course/thumbnail/thumbnail-1.png",
       "type_name": "Entertaiment",
       "title": "Movie Bunny Butterfly",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }, {
       "id": 4,
       "src": "videos/movie-bunny.mp4",
-      "thumbnail": "images/thumbnail/thumbnail-1.png",
+      "thumbnail": "images/course/thumbnail/thumbnail-1.png",
       "type_name": "Entertaiment",
       "title": "Movie Bunny",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -73,7 +73,7 @@
 
   "feature": {
     "src": "videos/movie-bunny.mp4",
-    "thumbnail": "images/thumbnail/thumbnail-1.png"
+    "thumbnail": "images/feature/thumbnail/thumbnail-1.png"
   },
 
 
