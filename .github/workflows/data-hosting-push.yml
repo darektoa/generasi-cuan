@@ -16,4 +16,4 @@ jobs:
         run: firebase deploy --project default
         env:
           CI: true
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN_2 }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
