@@ -9,14 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Branch
-        run: actions/checkout@v2
-
       - name: Install Depedencies
         run: npm install firebase-tools
       
       - name: Deploy
-        run: npm run deploy
+        run: firebase deploy --project default
         env:
           CI: true
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN_2 }}
